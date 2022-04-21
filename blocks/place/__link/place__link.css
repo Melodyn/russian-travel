@@ -16,3 +16,7 @@
   letter-spacing: 2px;
   line-height: 170%;
 }
+
+.place__link:hover {
+  opacity: .8;
+}

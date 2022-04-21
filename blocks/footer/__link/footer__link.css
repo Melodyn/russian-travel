@@ -1,0 +1,16 @@
+.footer__link {
+  padding: 0 0 0 18px;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.footer__link:first-child {
+  padding: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}
