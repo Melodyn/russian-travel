@@ -9,9 +9,18 @@
   padding-top: 0;
 }
 
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place__paragraph {
     padding-right: 16px;
     padding-left: 16px;
+    font-size: 16px;
+    line-height: 163%;
   }
 }
