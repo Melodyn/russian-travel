@@ -6,3 +6,11 @@
   gap: 48px 40px;
   grid-template-columns: repeat(2, minmax(340px, 1fr));
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    padding-top: 50px;
+    gap: 32px;
+    grid-template-columns: 1fr;
+  }
+}

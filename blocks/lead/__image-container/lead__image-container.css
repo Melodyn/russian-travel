@@ -4,3 +4,9 @@
   padding: 64px 0 0;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__image-container {
+    padding-top: 40px;
+  }
+}

@@ -1,4 +1,7 @@
 .two-columns__right {
   display: flex;
-  height: 100%;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }

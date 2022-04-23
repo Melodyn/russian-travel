@@ -1,5 +1,5 @@
 .footer__link {
-  padding: 0 0 0 18px;
+  padding: 0 18px 0 0;
   margin: 0;
   color: white;
   font-size: 16px;
@@ -8,10 +8,14 @@
   transition: opacity .2s linear;
 }
 
-.footer__link:first-child {
-  padding: 0;
-}
-
 .footer__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    padding: 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

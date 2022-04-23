@@ -7,3 +7,9 @@
   padding: 92px 0 0;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding-top: 66px;
+  }
+}

@@ -2,3 +2,10 @@
   height: 52px;
   padding: 28px 48px 0;
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 42px;
+    padding: 28px 16px 0;
+  }
+}
