@@ -1,29 +1,9 @@
 .place__link {
   position: relative;
-  padding: 0;
+  padding: 12px 0 0;
   margin: 0;
   color: white;
   font-size: 18px;
   line-height: 22px;
   transition: opacity .2s linear;
-}
-
-.place__link::before {
-  position: absolute;
-  top: -24px;
-  color: #aaa;
-  content: 'URL';
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 170%;
-}
-
-.place__link:hover {
-  opacity: .8;
-}
-
-@media screen and (max-width: 767px) {
-  .place__link {
-    padding: 0 16px;
-  }
 }

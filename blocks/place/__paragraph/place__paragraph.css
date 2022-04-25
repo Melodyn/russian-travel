@@ -12,15 +12,12 @@
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .place__paragraph {
     padding-right: 16px;
     padding-left: 16px;
-    font-size: 16px;
-    line-height: 163%;
   }
 }
