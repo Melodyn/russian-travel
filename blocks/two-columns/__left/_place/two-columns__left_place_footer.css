@@ -1,9 +1,0 @@
-@media screen and (max-width: 767px) {
-  .two-columns__left_place_footer {
-    flex-direction: column;
-  }
-
-  .two-columns__left_place_footer > * {
-    padding-top: 32px;
-  }
-}
